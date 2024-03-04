@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:text="Enable exit"
+        android:checked="true"
+        android:id="@+id/chkExitable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <in.bitcode.customviews1.ExitButton
+        android:id="@+id/exitButton"
+        android:textColor="#ffffff"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <in.bitcode.customviews1.ImageSlider
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="Stop Slider"
+        android:id="@+id/btnStopSlider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
